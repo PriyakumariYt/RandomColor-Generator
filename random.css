@@ -1,0 +1,39 @@
+  body {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        transition: 1s;
+      }
+      .container {
+        background: transparent;
+        justify-content: center;
+        margin: 200px auto;
+        text-align: center;
+      }
+      .container h1 {
+        font-size: 50px;
+        background: -webkit-linear-gradient(
+          135deg,
+          #09009f,
+          #11a064,
+          #101b16,
+          #babd2b 80%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .container .btn {
+        color: #11a064;
+        text-decoration: none;
+        background: #e2b4b4;
+        padding: 0.5rem 1.5rem;
+        font-size: 2rem;
+        border-radius: 0.7rem;
+
+        border: 0.5px solid rgb(223, 219, 219);
+      }
+      .container .btn:hover {
+        background: violet;
+        color: rgb(77, 5, 25);
+      }
